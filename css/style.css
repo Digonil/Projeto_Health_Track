@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Lato:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  max-width: 1000em;
+}
+
+.cabecalho-top {
+  width: 100%;
+  min-height: 80px;
+  padding: 0 20px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalho-links {
+  justify-content:end;
+  
+}
+
+.cabecalho-nav ul {
+  display: flex;
+
+}
+
+.cabecalho-nav li {
+  margin: 0 15px;
+}
+
+.cabecalho-nav a:hover {
+  color: aquamarine;
+}
+
+body{
+  font-family: Lato;
+  height: auto ;
+  width: auto;
+}
+
+
+.rodape {
+	
+  background-color: black;
+  color: white;
+	/* height: 100px; */
+  padding: 40px 0;
+  display: flex;
+	justify-content: center;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul, ol {
+  list-style: none;
+  color: white;
+  display: inline-flexbox;
+}
+
+.base {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.base-texto {
+position: absolute;
+background-color: rgba(0,0,0,0.5);
+color:#fff;
+text-align: center;
+top: 100px;
+width: 800px;
+line-height: 30px;
+height: 30px;
+
+}
+
+.atividades-geral{
+  background-color: aquamarine;
+}
+
+.atividades {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.atividades li {
+  background-color: aquamarine;
+  color: black;
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.atividades li:hover {
+	border-color: #C78C19;
+
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px; 
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.opcoes {
+	margin: 0 0 10px;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+.sobre {
+  background-color: aquamarine;
+  padding: 30px;
+  
+}
+
+.sobre-texto {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto;
+}
+
+.texto-video {
+  color: black;
+  max-width: 600px;
+  margin: 0 auto 2em auto;
+  text-align: center;
+}
+
+
+
+
